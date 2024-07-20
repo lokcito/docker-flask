@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM quay.io/namespace/python:3.8-slim
+FROM python:3.8-slim-buster
 
 WORKDIR /python-docker
 
